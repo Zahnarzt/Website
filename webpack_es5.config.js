@@ -85,7 +85,7 @@ module.exports = ({ mode }) => {
               {
                   loader: "markdown-loader",
                   options: {
-                      /* your options here */
+                    baseUrl: '/'
                   }
               }
           ]
