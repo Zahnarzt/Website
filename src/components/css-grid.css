@@ -1,0 +1,28 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: auto 1fr 1fr auto;
+  grid-gap: 24px;
+}
+
+/* Device = Tablets, Ipads */
+@media (min-width: 768px) {
+  .grid-container {
+    grid-template-columns: 1fr 60px 60px 60px 60px 60px 60px 60px 60px 60px 1fr;
+    grid-gap: 24px;
+  }
+}
+
+/* Device = Laptops, Desktops */
+@media (min-width: 1025px) {
+  .grid-container {
+    grid-template-columns: 1fr 68px 68px 68px 68px 68px 68px 68px 68px 68px 1fr;
+    grid-gap: 36px;
+  }
+}
+
+/* Device = Desktops */
+@media (min-width: 1281px) {
+  .grid-container {
+    grid-template-columns: 1fr 100px 100px 100px 100px 100px 100px 100px 100px 100px 1fr;
+  }
+}

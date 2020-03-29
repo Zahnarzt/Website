@@ -1,0 +1,15 @@
+:host {
+  display: block;
+  box-sizing: border-box;
+}
+
+:host * {
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
