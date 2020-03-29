@@ -3,7 +3,7 @@ const webpackMerge = require('webpack-merge');
 const { resolve } = require('path');
 const portFinderSync = require('portfinder-sync');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
-const distPath = 'dist';
+const distPath = 'docs';
 
 const modeConfig = env => require(`./webpack/webpack.${env.mode}.js`)(env);
 

@@ -5,7 +5,7 @@ const { resolve } = require('path');
 
 const modeConfig = env => require(`./webpack/webpack.${env.mode}.js`)(env);
 
-const distPath = 'dist/legacy';
+const distPath = 'docs/legacy';
 
 const webcomponents = './node_modules/@webcomponents/webcomponentsjs';
 const polyfils = [

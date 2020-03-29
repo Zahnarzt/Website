@@ -12,7 +12,7 @@
     "noFallthroughCasesInSwitch": true,
     /* Experimental Options */
     "experimentalDecorators": true,
-    "outDir": "dist"
+    "outDir": "docs"
   },
   "include": [
     "src/**/*.ts"
